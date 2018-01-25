@@ -6,6 +6,7 @@ I want to know a car's pose on the road in real scene. After taking a photo of a
 
 # Generated Images
 You can see the images in the 'images' folder
+
 ![image1](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/2c8e9ff5fd58ff3fcd046ccc4d5c3da2_0.jpg)
 ![image2](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/7e6da78c8dde0479f30da7304391ba9f_221.jpg)
 
@@ -80,7 +81,7 @@ model.add(Activation('relu'))
 model.add(Dropout(0.25))
 model.add(Dense(4))
 model.add(Activation('softmax'))
-```python
+```
 
 # Parameters for training
 ```python
@@ -88,7 +89,7 @@ adam=optimizers.Adam(lr=0.00005, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
 model.compile(loss='categorical_crossentropy',
               optimizer=adam,
               metrics = ['accuracy'] )
-```python
+```
 
 # Result
 The accuracy on the test data is over 90%!
