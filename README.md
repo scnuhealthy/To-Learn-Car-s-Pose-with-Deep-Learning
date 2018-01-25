@@ -43,7 +43,7 @@ kernel_size = (3, 3)
 
 model = Sequential()
 
-# 3 conv layer
+# Convolution layers
 model.add(Conv2D(nb_filters1, 7, 7,
                         border_mode='valid',
                         input_shape=input_shape))
