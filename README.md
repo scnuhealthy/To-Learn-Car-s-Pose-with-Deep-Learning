@@ -8,7 +8,7 @@ I want to know a car's pose on the road in real scene. Detailedly, I want to get
 ## How to generate
 This part is complex and it is not the key point of this blog. So I don't want to explain too much about the code. I have uploaded the code and you can look over it. Though this part is not easy, but the process is simple. I use the virtual carema to take photos of the 3D car model, add some interference and immerse them into random backgrounds. The random background and the random position of the car in the image make my data more robust.
 
-![car_pose]
+![car_pose](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/car_pose.png)
 
 ## Images
 You can see the images in the 'images' folder
@@ -17,7 +17,7 @@ You can see the images in the 'images' folder
 ![image2](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/7e6da78c8dde0479f30da7304391ba9f_221.jpg)
 
 # Solution
-The problem can be defined as the classification problem. The poses can be classified into 36 classes, 1-10 degree, 11-20 degree... Now I simplify the problem and I just class the cars into 4 classes,1-90 degree, 91-180 degree.. The best way to solve a classification is using deep learning.
+The problem can be defined as the classification problem. The poses can be classified into 36 classes, 1-10 degree, 11-20 degree... Now I simplify the problem and I just class the cars into 4 classes,1-90 degree, 91-180 degree.. The best way to solve a classification problem is using deep learning.
 
 # Deep learning
 # Network
