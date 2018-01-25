@@ -1,4 +1,4 @@
-# To-Learn-Car-s-Pose-with-Deep-Learning
+# To-Learn-Cars-Pose-with-Deep-Learning
 To train a CNN network to learn the cars' poses on the image
 
 # Problem
@@ -92,4 +92,6 @@ model.compile(loss='categorical_crossentropy',
 ```
 
 # Result
-The accuracy on the test data is over 90%!
+The accuracy on the test data is over 90%! The following pictures show the training log from epoch 50 to 350.
+![accuracy](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/az_350_4_classes_accuracy.png)
+![loss](https://github.com/scnuhealthy/To_Learn_Cars_Pose_with_Deep_Learning/blob/master/images/az_350_4_classes_loss.png)
