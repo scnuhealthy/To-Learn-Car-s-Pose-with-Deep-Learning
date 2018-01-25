@@ -20,7 +20,7 @@ The problem can be defined as the classification problem. The poses can be class
 
 # Deep learning
 # Network
-I can easily build the network with keras and tensorflow backend. The 'model.png' in the 'images' folder shows the complete network.
+I can easily build the network with keras and tensorflow backend. The 'model.png' in the 'images' folder shows the complete network. I have packaged the input images as a .h5 file, you can download my .h5 file and train in your environment.
 
 ```python
 # Input shape
